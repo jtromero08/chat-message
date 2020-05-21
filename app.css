@@ -1,0 +1,192 @@
+/*Resetting CSS Browswer*/
+
+body {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+form {
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 10% auto;
+    background-color: white;
+    max-width: 700px;
+    height: auto;
+    box-shadow: 0px 0px 20px #585757;
+}
+
+/* Form Style */
+
+.container-msg-inputs {
+    padding: 10px;
+    background-color: rgb(17, 91, 160);
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+.container-user-printed-sender .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url("./images/100k-ai-faces-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+input[type=text] {
+  width: 90%;
+  padding: 6px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;;
+}
+
+input[type=submit] {
+    margin-left: 30px;
+}
+
+/* output message and time style */
+.msg {
+    display: flex;
+}
+
+.time {
+    font-size: smaller;
+    display: flex;
+}
+
+/* RECEIVER */
+
+.receiver-name {
+    color: orange;
+}
+
+.container-user-printed-receiver {
+    padding: 30px 0px 0px 30px ;
+    display: flex;
+    flex-direction: row;
+}
+.textbox-msg-receiver {
+    margin: 6px 10px 13px 12px;
+    background-color: rgb(216, 216, 216);
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 9px 0px 9px 15px;
+}
+
+.container-user-printed-receiver .image {
+    width: 60px;
+    height: 60px;
+    border: 4px solid greenyellow;
+    border-radius: 50%;
+    background-image: url("./images/100k-ai-faces-8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.msg-receiver {
+    margin: 0px 11px 1px 0px;
+    padding-top: 2px;
+}
+
+.time-receiver {
+    justify-content: flex-end;
+    margin: 8px 15px 0px 0px;
+}
+
+/* SENDER */
+
+.sender-name {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(0, 68, 170);
+}
+
+.container-user-printed-sender {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textbox-msg-sender {
+    margin: 6px 12px 13px 0px;
+    background-color: rgb(216, 216, 216);
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 14px 5px 15px;
+}
+
+.msg-sender {
+    margin: 0px 0px 1px 6px;
+    padding-top: 2px;
+    flex-direction: row-reverse;
+}
+
+.time-sender {
+    margin: 11px 0px 3px 6px;
+}
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+/* Title & Date */ 
+.title {
+    padding: 20px 20px 0px 20px;
+}
+
+.title-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 0px;
+}
+
+.title-container h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px rgb(94, 94, 94);
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-container h3 {
+    padding-top: 8px;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.user-chat-box {
+    box-shadow: 1px 1px 5px grey; 
+    margin: 10px; 
+    border-radius: 3px;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 170.4;
+}
