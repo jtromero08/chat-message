@@ -1,0 +1,23 @@
+{
+  "name": "chat-message",
+  "version": "1.0.0",
+  "description": "my first own chat app using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtromero08/chat-message.git"
+  },
+  "author": "Josue Toledo Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtromero08/chat-message/issues"
+  },
+  "homepage": "https://github.com/jtromero08/chat-message#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
