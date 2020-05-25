@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/app.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/2d3286f2c0.js" crossorigin="anonymous"></script>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="./js/client.js"></script>
     <title>Chat Transcription</title>
 </head>
 <body>
@@ -18,34 +20,16 @@
             </div>
             <hr />
         </div>
-        <div class="user-chat-box" id="chat-box">
-            <div class="container-user-printed-sender">
-                <div class="image"></div>
-                <div class="textbox-msg-sender">
-                    <h3 class="sender-name">John</h3>
-                    <p class="msg msg-sender">Hi, I'm the John. How you been?<br/>Thanks for asking</p>
-                    <p class="time time-sender"><i class="far fa-clock"></i> 11:36:19 PM</p>
-                </div>
-            </div>
-            <div class="container-user-printed-receiver">
-                <div class="image"></div>
-                <div class="textbox-msg-receiver">
-                    <h3 class="receiver-name">Lidia</h3>
-                    <p class="msg msg-receiver">Hi, I'm the Lidia. I'm well and you?</p>
-                    <p class="time time-receiver"><i class="far fa-clock"></i> 11:30:34 PM</p>
-                </div>
-            </div>
-        </div>
+        <div class="user-chat-box" id="chat-box"></div>
         <div class="container-msg-inputs">
-            <form action="click">
+            <form action="">
                 <input type="text" placeholder="Text" id="input" autocomplete="off">
-                <button id="btn" class="btn" type="button">
+                <button id="btn" class="btn" type="submit">
                     <i class="fas fa-arrow-right"></i>
                 </button>
             </form>
         </div>
     </div>
     <footer>I don't own any of the image, the image goes to its rightful owners</footer>
-    <script src="./js/index.js"></script>
 </body>
 </html>
