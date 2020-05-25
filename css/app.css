@@ -33,11 +33,6 @@ form {
     border-radius: 0px 0px 5px 5px;
 }
 
-
-.container-user-printed-sender .image {
-    background-image: url("./../images/100k-ai-faces-3.jpg");
-}
-
 input[type=text] {
   width: 90%;
   padding: 6px 16px;
@@ -90,10 +85,6 @@ input[type=submit] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.container-user-printed-receiver .image {
-    background-image: url("./../images/100k-ai-faces-8.jpg");
 }
 
 .msg-receiver {
