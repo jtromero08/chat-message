@@ -35,13 +35,7 @@ form {
 
 
 .container-user-printed-sender .image {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-image: url("./images/100k-ai-faces-3.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url("./../images/100k-ai-faces-3.jpg");
 }
 
 input[type=text] {
@@ -88,16 +82,18 @@ input[type=submit] {
     flex-direction: column;
     padding: 9px 0px 9px 15px;
 }
-
-.container-user-printed-receiver .image {
+.image {
     width: 60px;
     height: 60px;
     border: 4px solid greenyellow;
     border-radius: 50%;
-    background-image: url("./images/100k-ai-faces-8.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.container-user-printed-receiver .image {
+    background-image: url("./../images/100k-ai-faces-8.jpg");
 }
 
 .msg-receiver {
