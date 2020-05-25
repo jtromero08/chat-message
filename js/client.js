@@ -2,13 +2,15 @@ const socket = io('http://localhost:3000')
 var chatbox = document.getElementById("chat-box");
 var btn = document.getElementById("btn");
 var inputBar = document.getElementById("input");
+var sideBar = document.querySelector('.users');
 
 const nameU = prompt('Enter your name.')
 const imageName = prompt('Image number: 3 or 8');
 function appendUser(username) {
     var div = document.createElement('div');
+    div.setAttribute("class", "user-joined");
     div.innerHTML = `${username} joined`;
-    chatbox.append(div);
+    sideBar.append(div);
 }
 appendUser('You');
 socket.emit('new user', nameU);
