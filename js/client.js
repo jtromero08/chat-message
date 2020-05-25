@@ -2,7 +2,6 @@ var chatbox = document.getElementById("chat-box");
 var btn = document.getElementById("btn");
 var inputBar = document.getElementById("input");
 
-var timeSend = new Date().toLocaleTimeString();
 
 function appendMultipleChild(parent, childrens) {
     childrens.forEach(child => {
@@ -11,6 +10,7 @@ function appendMultipleChild(parent, childrens) {
 }
 
 function createMsg(text, senderOrReceiver) {
+    var timeSend = new Date().toLocaleTimeString();
     var icon = document.createElement("i")
     var image = document.createElement("div");
     var textbox = document.createElement("div");
