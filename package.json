@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jtromero08/chat-message#readme",
   "dependencies": {
-    "nodemon": "^2.0.4",
-    "socket.io": "^2.3.0"
+    "nodemon": "^3.1.7",
+    "socket.io": "^2.5.1"
   }
 }
